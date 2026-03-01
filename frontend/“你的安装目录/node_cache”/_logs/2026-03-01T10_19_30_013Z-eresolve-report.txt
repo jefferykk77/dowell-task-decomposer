@@ -1,0 +1,36 @@
+'Log files:
+C:\Users\Jeffery\Downloads\dowell-main\dowell-main\frontend\“你的安装目录\node_cache”\_logs\2026-03-01T10_19_30_013Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: gantt-task-react@0.3.9
+Found: react@19.2.3
+node_modules/react
+  react@"^19.2.0" from the root project
+  peerOptional react@"^18.0.0 || ^19.0.0" from framer-motion@12.23.26
+  node_modules/framer-motion
+    framer-motion@"^12.23.26" from the root project
+  peer react@"^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0" from lucide-react@0.562.0
+  node_modules/lucide-react
+    lucide-react@"^0.562.0" from the root project
+  peer react@"^19.2.3" from react-dom@19.2.3
+  node_modules/react-dom
+    react-dom@"^19.2.0" from the root project
+    peerOptional react-dom@"^18.0.0 || ^19.0.0" from framer-motion@12.23.26
+    node_modules/framer-motion
+      framer-motion@"^12.23.26" from the root project
+
+Could not resolve dependency:
+peer react@"^18.0.0" from gantt-task-react@0.3.9
+node_modules/gantt-task-react
+  gantt-task-react@"^0.3.9" from the root project
+
+Conflicting peer dependency: react@18.3.1
+node_modules/react
+  peer react@"^18.0.0" from gantt-task-react@0.3.9
+  node_modules/gantt-task-react
+    gantt-task-react@"^0.3.9" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

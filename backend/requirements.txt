@@ -1,0 +1,21 @@
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+SQLAlchemy==2.0.25
+python-dotenv==1.0.0
+pydantic>=2.6.0
+pydantic-settings>=2.1.0
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+openai>=1.10.0
+python-multipart>=0.0.6
+
+# LangChain 和 RAG 相关依赖（使用兼容的版本组合）
+langchain>=0.1.16
+langchain-openai>=0.1.0
+langchain-community>=0.0.32
+faiss-cpu>=1.8.0
+sentence-transformers>=2.3.0
+tiktoken>=0.5.0
+
+# 可选：如果需要使用 ChromaDB，取消下面的注释
+# chromadb==0.4.22
